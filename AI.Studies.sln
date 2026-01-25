@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ollama.Console", "Ollama.Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ollama.RAG.Console", "Ollama.RAG.Console\Ollama.RAG.Console.csproj", "{8FFE31F3-8717-44FA-B933-F66B5F59E5E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubModels.Console", "GitHubModels.Console\GitHubModels.Console.csproj", "{BD2E17F6-F92C-4400-8FCD-3CAFC2CC026F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{8FFE31F3-8717-44FA-B933-F66B5F59E5E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FFE31F3-8717-44FA-B933-F66B5F59E5E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FFE31F3-8717-44FA-B933-F66B5F59E5E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD2E17F6-F92C-4400-8FCD-3CAFC2CC026F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD2E17F6-F92C-4400-8FCD-3CAFC2CC026F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD2E17F6-F92C-4400-8FCD-3CAFC2CC026F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD2E17F6-F92C-4400-8FCD-3CAFC2CC026F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
