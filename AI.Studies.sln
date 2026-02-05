@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ollama.RAG.Console", "Ollam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubModels.Console", "GitHubModels.Console\GitHubModels.Console.csproj", "{BD2E17F6-F92C-4400-8FCD-3CAFC2CC026F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernel.Console", "SemanticKernel.Console\SemanticKernel.Console.csproj", "{F17C01A4-2B08-4129-9388-B80FF99DA559}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{BD2E17F6-F92C-4400-8FCD-3CAFC2CC026F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD2E17F6-F92C-4400-8FCD-3CAFC2CC026F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD2E17F6-F92C-4400-8FCD-3CAFC2CC026F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F17C01A4-2B08-4129-9388-B80FF99DA559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F17C01A4-2B08-4129-9388-B80FF99DA559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F17C01A4-2B08-4129-9388-B80FF99DA559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F17C01A4-2B08-4129-9388-B80FF99DA559}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
