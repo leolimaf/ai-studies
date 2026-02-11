@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitHubModels.Console", "Git
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernel.Console", "SemanticKernel.Console\SemanticKernel.Console.csproj", "{F17C01A4-2B08-4129-9388-B80FF99DA559}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPgVectorStore.Web", "MyPgVectorStore.Web\MyPgVectorStore.Web.csproj", "{665A57EC-C850-4808-BEB2-6CD3126D1D86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{F17C01A4-2B08-4129-9388-B80FF99DA559}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F17C01A4-2B08-4129-9388-B80FF99DA559}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F17C01A4-2B08-4129-9388-B80FF99DA559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{665A57EC-C850-4808-BEB2-6CD3126D1D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{665A57EC-C850-4808-BEB2-6CD3126D1D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{665A57EC-C850-4808-BEB2-6CD3126D1D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{665A57EC-C850-4808-BEB2-6CD3126D1D86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
