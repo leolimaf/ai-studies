@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemanticKernel.Console", "S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPgVectorStore.Web", "MyPgVectorStore.Web\MyPgVectorStore.Web.csproj", "{665A57EC-C850-4808-BEB2-6CD3126D1D86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAF.Agents.Console", "MAF.Agents.Console\MAF.Agents.Console.csproj", "{50881B50-688C-4B6B-8C75-F2B808413C62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{665A57EC-C850-4808-BEB2-6CD3126D1D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{665A57EC-C850-4808-BEB2-6CD3126D1D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{665A57EC-C850-4808-BEB2-6CD3126D1D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50881B50-688C-4B6B-8C75-F2B808413C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50881B50-688C-4B6B-8C75-F2B808413C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50881B50-688C-4B6B-8C75-F2B808413C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50881B50-688C-4B6B-8C75-F2B808413C62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
