@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyPgVectorStore.Web", "MyPg
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MAF.Agents.Console", "MAF.Agents.Console\MAF.Agents.Console.csproj", "{50881B50-688C-4B6B-8C75-F2B808413C62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parametros.LLMs.Console", "Parametros.LLMs.Console\Parametros.LLMs.Console.csproj", "{03B61029-E2F7-43B1-9F16-5FACB21E80B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{50881B50-688C-4B6B-8C75-F2B808413C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50881B50-688C-4B6B-8C75-F2B808413C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50881B50-688C-4B6B-8C75-F2B808413C62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03B61029-E2F7-43B1-9F16-5FACB21E80B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B61029-E2F7-43B1-9F16-5FACB21E80B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B61029-E2F7-43B1-9F16-5FACB21E80B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B61029-E2F7-43B1-9F16-5FACB21E80B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
