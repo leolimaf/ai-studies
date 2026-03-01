@@ -2,6 +2,7 @@
   <Project Path="Ollama.Console\Ollama.Console.csproj" />
   <Project Path="Ollama.RAG.Console\Ollama.RAG.Console.csproj" />
   <Project Path="GitHubModels.Console\GitHubModels.Console.csproj" />
+  <Project Path="ReceiptImageRecognition/ReceiptImageRecognition.csproj" />
   <Project Path="SemanticKernel.Console\SemanticKernel.Console.csproj" />
   <Project Path="MyPgVectorStore.Web\MyPgVectorStore.Web.csproj" />
   <Project Path="MAF.Agents.Console\MAF.Agents.Console.csproj" />
