@@ -7,4 +7,5 @@
   <Project Path="MyPgVectorStore.Web\MyPgVectorStore.Web.csproj" />
   <Project Path="MAF.Agents.Console\MAF.Agents.Console.csproj" />
   <Project Path="Parametros.LLMs.Console\Parametros.LLMs.Console.csproj" />
+  <Project Path="CopilotDemo\CopilotDemo.csproj" />
 </Solution>
