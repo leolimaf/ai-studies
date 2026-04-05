@@ -1,0 +1,22 @@
+<div class="app-container">
+  <header class="app-header">
+    <h1>Gerenciador de Tarefas</h1>
+    <button class="btn btn-primary" (click)="onNewTask()">+ Nova Tarefa</button>
+  </header>
+
+  <app-task-form
+    *ngIf="showForm"
+    [task]="selectedTask"
+    (saved)="onSaved($event)"
+    (cancelled)="onCancelled()"
+  ></app-task-form>
+
+  <app-task-filter (filterChange)="onFilterChange($event)"></app-task-filter>
+
+  <app-task-list
+    [tasks]="tasks"
+    (editTask)="onEditTask($event)"
+    (deleteTask)="onDeleteTask($event)"
+    (statusChanged)="onStatusChanged($event)"
+  ></app-task-list>
+</div>

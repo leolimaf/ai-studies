@@ -1,0 +1,28 @@
+<div class="filter-container">
+  <form [formGroup]="form" class="filter-form">
+    <div class="filter-group">
+      <label for="filterPriority">Prioridade</label>
+      <select id="filterPriority" formControlName="priority">
+        <option [value]="null">Todas</option>
+        <option *ngFor="let p of priorityOptions" [value]="p.value">{{ p.label }}</option>
+      </select>
+    </div>
+
+    <div class="filter-group">
+      <label for="filterStatus">Status</label>
+      <select id="filterStatus" formControlName="status">
+        <option [value]="null">Todos</option>
+        <option *ngFor="let s of statusOptions" [value]="s.value">{{ s.label }}</option>
+      </select>
+    </div>
+
+    <div class="filter-group">
+      <label for="filterDueDate">Data de Conclusão</label>
+      <input id="filterDueDate" type="date" formControlName="dueDate" />
+    </div>
+
+    <div class="filter-group filter-actions">
+      <button type="button" class="btn btn-secondary" (click)="clearFilters()">Limpar filtros</button>
+    </div>
+  </form>
+</div>

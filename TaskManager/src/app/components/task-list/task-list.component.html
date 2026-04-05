@@ -1,0 +1,41 @@
+<div class="task-list-container">
+  <div *ngIf="tasks.length === 0" class="empty-state">
+    <p>Nenhuma tarefa encontrada. Clique em "Nova Tarefa" para começar!</p>
+  </div>
+
+  <table *ngIf="tasks.length > 0" class="task-table">
+    <thead>
+      <tr>
+        <th>Título</th>
+        <th>Descrição</th>
+        <th>Prioridade</th>
+        <th>Status</th>
+        <th>Data de Conclusão</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let task of tasks" [class.overdue]="isOverdue(task.dueDate) && task.status !== Status.Concluida">
+        <td class="task-title">{{ task.title }}</td>
+        <td class="task-description">{{ task.description || '—' }}</td>
+        <td>
+          <span class="badge priority-badge" [class]="'priority-' + task.priority.toLowerCase()">
+            {{ priorityLabels[task.priority] }}
+          </span>
+        </td>
+        <td>
+          <select class="status-select" [value]="task.status" (change)="onStatusChange(task, $event)">
+            <option *ngFor="let s of statusOptions" [value]="s">{{ statusLabels[s] }}</option>
+          </select>
+        </td>
+        <td [class.overdue-date]="isOverdue(task.dueDate) && task.status !== Status.Concluida">
+          {{ task.dueDate }}
+        </td>
+        <td class="actions">
+          <button class="btn btn-edit" (click)="onEditClick(task)">Editar</button>
+          <button class="btn btn-delete" (click)="onDeleteClick(task.id!)">Excluir</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
