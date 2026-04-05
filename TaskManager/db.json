@@ -1,0 +1,77 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Estudar Angular 19",
+      "description": "Focar em standalone components e signals",
+      "dueDate": "2026-04-15",
+      "priority": "Alta",
+      "status": "EmAndamento",
+      "createdAt": "2026-04-05T09:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "title": "Ler documentação do json-server",
+      "description": null,
+      "dueDate": "2026-04-08",
+      "priority": "Media",
+      "status": "Pendente",
+      "createdAt": "2026-04-05T09:05:00.000Z"
+    },
+    {
+      "id": "3",
+      "title": "Configurar ambiente de desenvolvimento",
+      "description": "Instalar Node.js, Angular CLI e extensões do VS Code",
+      "dueDate": "2026-04-01",
+      "priority": "Alta",
+      "status": "Concluida",
+      "createdAt": "2026-04-01T08:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "title": "Revisar pull requests pendentes",
+      "description": null,
+      "dueDate": "2026-04-06",
+      "priority": "Baixa",
+      "status": "Pendente",
+      "createdAt": "2026-04-05T10:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "title": "Escrever documentação do projeto",
+      "description": "README com instruções de setup e uso",
+      "dueDate": "2026-04-20",
+      "priority": "Media",
+      "status": "Pendente",
+      "createdAt": "2026-04-05T10:10:00.000Z"
+    },
+    {
+      "title": "Aprender Angular",
+      "description": "Realizar o curso de Angular disponível no canal da fulana lá no youtube",
+      "dueDate": "2026-04-10",
+      "priority": "Media",
+      "status": "Pendente",
+      "createdAt": "2026-04-05T16:15:13.641Z",
+      "id": "Qsd6CScgx1c"
+    },
+    {
+      "title": "Teste",
+      "description": "teste desc",
+      "dueDate": "2026-04-09",
+      "priority": "Media",
+      "status": "Pendente",
+      "createdAt": "2026-04-05T16:15:57.403Z",
+      "id": "VTSVy6TOLBM"
+    },
+    {
+      "title": "teste",
+      "description": null,
+      "dueDate": "2026-04-13",
+      "priority": "Media",
+      "status": "Pendente",
+      "createdAt": "2026-04-05T16:17:14.393Z",
+      "id": "OIDrMDtrjg8"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
